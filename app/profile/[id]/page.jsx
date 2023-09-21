@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 
-import Profile from 'P';
+import Profile from '@components/Profile';
 
 const UserProfilePage = ({params}) => {
   const searchParams = useSearchParams();
